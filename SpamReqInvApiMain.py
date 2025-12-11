@@ -20,7 +20,6 @@ from Crypto.Util.Padding import pad, unpad
 import google.protobuf
 from google.protobuf.timestamp_pb2 import Timestamp
 from google.protobuf.json_format import MessageToJson
-from protobuf_decoder.protobuf_decoder import Parser
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 secertsq = None
 from SpamReqInvApiSetting import *
@@ -136,7 +135,6 @@ def GeneratMsg(msg, cid, key, iv):
 
     return bytes.fromhex(final_packet)
 import requests , json , binascii , time , urllib3 , base64 , datetime , re ,socket , threading , random , os
-from protobuf_decoder.protobuf_decoder import Parser
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad , unpad
 from datetime import datetime
@@ -258,7 +256,6 @@ def xSEndMsg(Msg , Tp , Tp2 , id , K , V):
 # By AbdeeLkarim BesTo
 
 import requests , json , binascii , time , urllib3 , base64 , datetime , re ,socket , threading , random , os
-from protobuf_decoder.protobuf_decoder import Parser
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad , unpad
 from datetime import datetime
@@ -1134,4 +1131,5 @@ like_data_clan , like_data , room_data = L_DaTa()
 #JOIN FOR MORE CODES AND LEAKED 
 #TG CHANNEL @NR_CODEX
 #YT CHANNEL @NR_CODEX06
+
 #IG FOLLOW US @NR_CODEX
