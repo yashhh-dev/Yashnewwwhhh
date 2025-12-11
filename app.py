@@ -320,7 +320,7 @@ class TcpBotConnectMain:
         return whisper_ip, whisper_port, online_ip, online_port
     
     def GET_LOGIN_DATA(self, JWT_TOKEN, PAYLOAD):
-        url = https://client.ind.freefiremobile.com
+        url = "https://client.ind.freefiremobile.com"
         headers = {
             'Expect': '100-continue',
             'Authorization': f'Bearer {JWT_TOKEN}',
